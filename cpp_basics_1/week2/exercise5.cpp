@@ -12,11 +12,13 @@ int main() {
   
   //fix the code below this line
 
-  string sum = num1 + num2;
-  cout << ( num1 + " + " + num2 + " = " + sum ) << endl;
+  int sum = std::stoi(num1) + std::stoi(num2);
+  string sum_str = std::to_string(sum);
+  cout << ( num1 + " + " + num2 + " = " + sum_str ) << endl;
 
   //fix the code above this line
   
   return 0;
   
 }
+
