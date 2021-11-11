@@ -8,9 +8,9 @@ int main(int argc, char** argv) {
   //add code below this line
   bool my_bool;
   my_bool = true;
-  cout << my_bool;
+  cout << my_bool << endl;
   my_bool = false;
-  cout << my_bool;
+  cout << my_bool << endl;
 
 
   //add code above this line
